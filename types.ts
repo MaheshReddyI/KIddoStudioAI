@@ -14,6 +14,8 @@ export interface VideoProject {
 
 export type GenerationStatus = 'idle' | 'authorizing' | 'generating-video' | 'generating-audio' | 'processing' | 'completed' | 'error';
 
+export type ActiveTab = 'presets' | 'custom';
+
 export interface GeneratedContent {
   videoUrl?: string;
   audioUrl?: string;
