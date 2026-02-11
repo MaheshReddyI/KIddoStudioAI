@@ -1,0 +1,7 @@
+{
+  "name": "KiddoStudio AI",
+  "description": "A high-end AI production suite for creating YouTube Kids content, including video generation with Veo and audio production with Gemini TTS.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
